@@ -3,7 +3,7 @@
 TD Capteur
 
 
-## TODO List
+## To do List
 
 - [ ] Add folders organization
 - [ ] Add KiCad
