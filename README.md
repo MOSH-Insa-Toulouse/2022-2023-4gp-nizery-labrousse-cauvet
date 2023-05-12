@@ -129,7 +129,7 @@ Lors de nos mesures, nous devions reprendre le R0 à chaque essai car celui-ci a
 
 On peut également penser à l'utilisation d'un dispositif à base d'un servomoteur, en remplacement de notre banc de test, car celui-ci nous permettrait de reproduire les expériences de manière plus fiable, avec tout le temps la même tension/compression exercée entre les différents capteurs.
 
-Afin d'avoir une excellente sensibilité pour toutes les plages de résistance. On aurait pu augmenter le nombre de valeurs de résistance de potentiomètre qui se règlent automatiquement.
+Afin d'avoir une excellente sensibilité pour toutes les plages de résistance, on aurait pu augmenter le nombre de valeurs de résistance de potentiomètre qui se règlent automatiquement.
 
 ## Datasheet 
 
