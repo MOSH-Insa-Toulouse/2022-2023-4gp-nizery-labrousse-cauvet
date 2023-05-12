@@ -125,6 +125,12 @@ Vous retrouverez les résultats obtenus avec notre banc de test dans la datashee
 
 ### Analyse et pistes d’améliorations
 
+Lors de nos mesures, nous devions reprendre le R0 à chaque essai car celui-ci augmentait entre-temps. Le papier trop fragile, s'abîmait et rendait plus difficile la conduction des électrons, la résistance augmente donc. Il serait donc envisageable de prendre un papier plus résistant qui ne se déformerait pas de manière permanente après chaque mesure.
+
+On peut également penser à l'utilisation d'un dispositif à base d'un servomoteur, en remplacement de notre banc de test, car celui-ci nous permettrait de reproduire les expériences de manière plus fiable, avec tout le temps la même tension/compression exercée entre les différents capteurs.
+
+Afin d'avoir une excellente sensibilité pour toutes les plages de résistance. On aurait pu augmenter le nombre de valeurs de résistance de potentiomètre qui se règlent automatiquement.
+
 ## Datasheet 
 
 La datasheet de notre capteur est disponible dans le dossier Datasheet [ici](Datasheet/Datasheet_CG-4127-GAF.docx).
