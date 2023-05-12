@@ -76,7 +76,7 @@ Vous trouverez ci-dessous l’intégralité des symboles et empreintes créées 
 * Potentiomètre digital MCP41050
 
 ![](https://i.imgur.com/UuAYs9D.png)
-![]
+![](https://i.imgur.com/KDNUFDK.png)
 
 ### Schéma Complet
 
