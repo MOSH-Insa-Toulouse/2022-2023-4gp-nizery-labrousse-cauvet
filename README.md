@@ -121,13 +121,13 @@ Nous avons réalisé les mesures en compression et en tension pour chacun de nos
 
 ### Résultats obtenus
 
-Vous retrouverez les résultats obtenus avec notre banc de test dans le dossier.
+Vous retrouverez les résultats obtenus avec notre banc de test dans la datasheet (ici).
 
 ### Analyse et pistes d’améliorations
 
 ## Datasheet 
 
-La datasheet de notre capteur est disponible dans le dossier Datasheet.
+La datasheet de notre capteur est disponible dans le dossier Datasheet (ici).
 
 ## *Auteurs*
 
