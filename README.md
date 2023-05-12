@@ -121,7 +121,7 @@ Nous avons réalisé les mesures en compression et en tension pour chacun de nos
 
 ### Résultats obtenus
 
-Vous retrouverez les résultats obtenus avec notre banc de test dans la datasheet (ici).
+Vous retrouverez les résultats obtenus avec notre banc de test dans la datasheet [ici](Datasheet/Datasheet_CG-4127-GAF.docx).
 
 ### Analyse et pistes d’améliorations
 
