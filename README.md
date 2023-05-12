@@ -127,7 +127,7 @@ Vous retrouverez les résultats obtenus avec notre banc de test dans la datashee
 
 ## Datasheet 
 
-La datasheet de notre capteur est disponible dans le dossier Datasheet (ici).
+La datasheet de notre capteur est disponible dans le dossier Datasheet [ici](Datasheet/Datasheet_CG-4127-GAF.docx).
 
 ## *Auteurs*
 
