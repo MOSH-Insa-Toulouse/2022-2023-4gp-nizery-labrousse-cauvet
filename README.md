@@ -38,4 +38,4 @@ Les livrables pour ce projet sont :
 
 Nous avons réalisé la simulation électrique du circuit associé au shield sur le logiciel LTSpice. Voici le schéma du circuit simulé : 
 
-![]
+`![](Sans titre1.png)`
