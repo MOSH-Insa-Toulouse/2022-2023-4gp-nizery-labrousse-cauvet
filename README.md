@@ -108,6 +108,8 @@ Nous avons aussi dû percer deux trous pour y insérer un via pour relier deux p
 
 Nous avons développé une application Android à l’aide du site MIT App Inventor. Cette application permet de recevoir les données de la carte Arduino par connexion Bluetooth avec le module HC-05 implémenté sur le shield de la carte Arduino. Après connexion Bluetooth, un graphe se dessine permettant de suivre la résistance du capteur graphite en fonction du temps et des contraintes qui lui sont appliquées. La valeur de cette résistance est également affichée implicitement en plus de la valeur de la de résistance du potentiomètre digital.
 
+![](https://i.imgur.com/zuhghsf.png)
+
 ## Banc de test  
 
 ![](https://i.imgur.com/ftwMDFp.png)  
