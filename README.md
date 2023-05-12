@@ -33,7 +33,7 @@ Les livrables pour ce projet sont :
 
 Nous avons réalisé la simulation électrique du circuit associé au shield sur le logiciel LTSpice. Voici le schéma du circuit simulé : 
 
-![](https://imgur.com/a/i7dL5Xh)
+![](https://i.imgur.com/WBorXMa.png)
 
 Le capteur de graphite délivre un courant de 100 nA qui représente un signal trop faible pour que le microcontrôleur de la carte Arduino détecte les variations du signal. L’amplificateur transimpédance permet donc de transformer le signal de courant en tension et de l’amplifier. Le circuit est ensuite constitué de divers filtres permettant d’atténuer le bruit lié à l'environnement de la mesure (50Hz, hautes fréquences…).
 Plusieurs tests ont été effectués sur le circuit et sur les filtres pour connaître le rôle de chacun d’eux et vérifier sa compatibilité avec la carte Arduino qui gère l’acquisition des données.
@@ -60,27 +60,31 @@ Vous trouverez ci-dessous l’intégralité des symboles et empreintes créées 
 
 * Module Bluetooth HC-05
 
-![]![]
+![](https://i.imgur.com/0zRxnir.png)
+![](https://i.imgur.com/HBqguKi.png)
 
 * Amplificateur LTC1050
 
-![]![]
+![](https://i.imgur.com/PRpCNXv.png)
+![](https://i.imgur.com/undefined.png)
 
 * Ecran OLED
 
-![]![]
+![](https://i.imgur.com/49Etx1B.png)
+![](https://i.imgur.com/stbKX5M.png)
 
 * Potentiomètre digital MCP41050
 
-![]![]
+![](https://i.imgur.com/UuAYs9D.png)
+![]
 
 ### Schéma Complet
 
-![]
+![](https://i.imgur.com/dMGNe4m.png)
 
 ### PCB
 
-![]
+![](https://i.imgur.com/HSJmFyw.png)
 
 ## Fabrication du Shield
  
@@ -88,7 +92,7 @@ Vous trouverez ci-dessous l’intégralité des symboles et empreintes créées 
 
 Voici ci-dessus le circuit imprimé réalisé à partir d’un calque de PCB. 
 
-![]
+![](https://i.imgur.com/4Jp68Vc.png)
 
 Le PCB a été réalisé au sein de deux départements de l’INSA Toulouse, le Génie Électrique et Informatique et le Génie Physique. Il a été fabriqué avec une plaquette d’époxy recouverte d’une couche de cuivre d’environ 60𝝻m. Nous avons imprimé sur du calque le circuit ci-dessus, puis nous avons insolé aux UVs notre plaquette avec ce calque pendant une dizaine de minutes. Après avoir retiré la partie de résine non isolée avec un révélateur, nous avons plongé notre plaquette dans un bain de percholorure de fer. Cela a permis de retirer le cuivre qui n’était pas protégé et de révéler les pistes de notre circuit.
 
@@ -106,14 +110,16 @@ Nous avons développé une application Android à l’aide du site MIT App Inven
 
 ## Banc de test 
 
-![] 
+![](https://i.imgur.com/ftwMDFp.png)
 
 Nous utilisons ce banc de test composé de 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pax de 0,5 cm. Nous posons le capteur sur chacun des cylindres et appliquons donc une déformation sur celui-ci. Cette déformation se retrouve avec la formule ci-dessous : 
 $$\epsilon = \frac{e}{2r}$$ 
 avec e l’épaisseur du capteur et r le rayon de courbure donc le rayon de chaque demi cylindre.
 Nous avons réalisé les mesures en compression et en tension pour chacun de nos capteurs.
 
-![]![]
+![](https://i.imgur.com/6yP3EQF.png)
+![](https://i.imgur.com/GJwPf5G.png)
+
 
 ### Résultats obtenus
 
