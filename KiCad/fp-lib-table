@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD6_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
+  (lib (name "Librairie_Empreinte_capteur_graphite")(type "KiCad")(uri "${KIPRJMOD}/Librairie_Empreinte_capteur_graphite.pretty")(options "")(descr ""))
+  (lib (name "Librairie_empreinte_LTC1050")(type "KiCad")(uri "${KIPRJMOD}/Librairie_empreinte_LTC1050.pretty")(options "")(descr ""))
+  (lib (name "Librairie_empreinte_OLED")(type "KiCad")(uri "${KIPRJMOD}/Librairie_empreinte_OLED.pretty")(options "")(descr ""))
+)

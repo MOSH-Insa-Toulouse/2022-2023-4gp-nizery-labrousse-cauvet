@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Librairie_capteur_graphite")(type "KiCad")(uri "${KIPRJMOD}/Librairie_capteur_graphite.kicad_sym")(options "")(descr ""))
+  (lib (name "Librairie_Ampli")(type "KiCad")(uri "${KIPRJMOD}/Librairie_Ampli.kicad_sym")(options "")(descr ""))
+  (lib (name "Librairie_OLED")(type "KiCad")(uri "${KIPRJMOD}/Librairie_OLED.kicad_sym")(options "")(descr ""))
+)
