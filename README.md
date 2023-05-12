@@ -1,5 +1,7 @@
 # *PROJET CAPTEUR - CG-4127-GAF*
 
+![](https://i.imgur.com/LSR3erp.png)
+
 ## Introduction : Description du projet, Cahier des charges et Livrables 
 
 Ce projet s’inscrit dans l’UF “Du capteur au banc de test” de 4ème année de Génie Physique de l’INSA Toulouse. Il s’inscrit dans une démarche low-tech de développement d’un capteur de contrainte et d’un système de mesure permettant la caractérisation du capteur. Il s’appuie sur l’étude de capteurs de contrainte en graphite (système granulaire) dont la résistance varie suivant la déformation du capteur (Pencil Drawn Strain Gauges and Chemiresistors on Paper Cheng-Wei Lin*, Zhibo Zhao*, Jaemyung Kim & Jiaxing Huang Department of Materials Science and Engineering, Northwestern University 2220 Campus Drive, Evanston, IL, 60208, USA).  
