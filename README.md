@@ -66,7 +66,7 @@ Vous trouverez ci-dessous l’intégralité des symboles et empreintes créées 
 * Amplificateur LTC1050
 
 ![](https://i.imgur.com/PRpCNXv.png)
-![](https://i.imgur.com/undefined.png)
+![](https://i.imgur.com/t2qwpJ2.png)
 
 * Ecran OLED
 
@@ -108,18 +108,16 @@ Nous avons aussi dû percer deux trous pour y insérer un via pour relier deux p
 
 Nous avons développé une application Android à l’aide du site MIT App Inventor. Cette application permet de recevoir les données de la carte Arduino par connexion Bluetooth avec le module HC-05 implémenté sur le shield de la carte Arduino. Après connexion Bluetooth, un graphe se dessine permettant de suivre la résistance du capteur graphite en fonction du temps et des contraintes qui lui sont appliquées. La valeur de cette résistance est également affichée implicitement en plus de la valeur de la de résistance du potentiomètre digital.
 
-## Banc de test 
+## Banc de test  
 
-![](https://i.imgur.com/ftwMDFp.png)
-
-Nous utilisons ce banc de test composé de 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pax de 0,5 cm. Nous posons le capteur sur chacun des cylindres et appliquons donc une déformation sur celui-ci. Cette déformation se retrouve avec la formule ci-dessous : 
-$$\epsilon = \frac{e}{2r}$$ 
-avec e l’épaisseur du capteur et r le rayon de courbure donc le rayon de chaque demi cylindre.
-Nous avons réalisé les mesures en compression et en tension pour chacun de nos capteurs.
-
-![](https://i.imgur.com/6yP3EQF.png)
+![](https://i.imgur.com/ftwMDFp.png)  
+![](https://i.imgur.com/6yP3EQF.png)  
 ![](https://i.imgur.com/GJwPf5G.png)
 
+Nous utilisons ce banc de test composé de 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pax de 0,5 cm. Nous posons le capteur sur chacun des cylindres et appliquons donc une déformation  sur celui-ci. Cette déformation se retrouve avec la formule ci-dessous : 
+$$\epsilon = \frac{e}{2r}$$ 
+avec e l’épaisseur du capteur et r le rayon de courbure donc le rayon de chaque demi cylindre.
+Nous avons réalisé les mesures en compression et en tension pour chacun de nos capteurs.  
 
 ### Résultats obtenus
 
