@@ -33,7 +33,7 @@ Les livrables pour ce projet sont :
 
 Nous avons réalisé la simulation électrique du circuit associé au shield sur le logiciel LTSpice. Voici le schéma du circuit simulé : 
 
-![]
+![](https://imgur.com/a/i7dL5Xh)
 
 Le capteur de graphite délivre un courant de 100 nA qui représente un signal trop faible pour que le microcontrôleur de la carte Arduino détecte les variations du signal. L’amplificateur transimpédance permet donc de transformer le signal de courant en tension et de l’amplifier. Le circuit est ensuite constitué de divers filtres permettant d’atténuer le bruit lié à l'environnement de la mesure (50Hz, hautes fréquences…).
 Plusieurs tests ont été effectués sur le circuit et sur les filtres pour connaître le rôle de chacun d’eux et vérifier sa compatibilité avec la carte Arduino qui gère l’acquisition des données.
