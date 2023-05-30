@@ -35,7 +35,7 @@ Les livrables pour ce projet sont :
 
 Nous avons réalisé la simulation électrique du circuit associé au shield sur le logiciel LTSpice. Voici le schéma du circuit simulé : 
 
-![](https://i.imgur.com/WBorXMa.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Autres%20images/LTSPICE.PNG)
 
 Le capteur de graphite délivre un courant de 100 nA qui représente un signal trop faible pour que le microcontrôleur de la carte Arduino détecte les variations du signal. L’amplificateur transimpédance permet donc de transformer le signal de courant en tension et de l’amplifier. Le circuit est ensuite constitué de divers filtres permettant d’atténuer le bruit lié à l'environnement de la mesure (50Hz, hautes fréquences…).
 Plusieurs tests ont été effectués sur le circuit et sur les filtres pour connaître le rôle de chacun d’eux et vérifier sa compatibilité avec la carte Arduino qui gère l’acquisition des données.
@@ -62,31 +62,31 @@ Vous trouverez ci-dessous l’intégralité des symboles et empreintes créées 
 
 * Module Bluetooth HC-05
 
-![](https://i.imgur.com/0zRxnir.png)
-![](https://i.imgur.com/HBqguKi.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/HC-05_Empreinte.PNG)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/HC-05_Schematique.PNG)
 
 * Amplificateur LTC1050
 
-![](https://i.imgur.com/PRpCNXv.png)
-![](https://i.imgur.com/t2qwpJ2.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/LTC1050_Empreinte.PNG)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/LTC1050_Schematique.PNG)
 
 * Ecran OLED
 
-![](https://i.imgur.com/49Etx1B.png)
-![](https://i.imgur.com/stbKX5M.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/OLED_Empreinte.PNG)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/OLED_Schematique.PNG)
 
 * Potentiomètre digital MCP41050
 
-![](https://i.imgur.com/UuAYs9D.png)
-![](https://i.imgur.com/KDNUFDK.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/MCP41050_Empreinte.PNG)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/MCP41050_Schematique.PNG)
 
 ### Schéma Complet
 
-![](https://i.imgur.com/dMGNe4m.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/Schematique_SHIELD.PNG)
 
 ### PCB
 
-![](https://i.imgur.com/HSJmFyw.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/Empreinte_SHIELD.PNG)
 
 ## Fabrication du Shield
  
@@ -94,7 +94,7 @@ Vous trouverez ci-dessous l’intégralité des symboles et empreintes créées 
 
 Voici ci-dessus le circuit imprimé réalisé à partir d’un calque de PCB. 
 
-![](https://i.imgur.com/4Jp68Vc.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Images%20KiCad/Calque_PCB.PNG)
 
 Le PCB a été réalisé au sein de deux départements de l’INSA Toulouse, le Génie Électrique et Informatique et le Génie Physique. Il a été fabriqué avec une plaquette d’époxy recouverte d’une couche de cuivre d’environ 60𝝻m. Nous avons imprimé sur du calque le circuit ci-dessus, puis nous avons insolé aux UVs notre plaquette avec ce calque pendant une dizaine de minutes. Après avoir retiré la partie de résine non isolée avec un révélateur, nous avons plongé notre plaquette dans un bain de percholorure de fer. Cela a permis de retirer le cuivre qui n’était pas protégé et de révéler les pistes de notre circuit.
 
@@ -110,13 +110,13 @@ Nous avons aussi dû percer deux trous pour y insérer un via pour relier deux p
 
 Nous avons développé une application Android à l’aide du site MIT App Inventor. Cette application permet de recevoir les données de la carte Arduino par connexion Bluetooth avec le module HC-05 implémenté sur le shield de la carte Arduino. Après connexion Bluetooth, un graphe se dessine permettant de suivre la résistance du capteur graphite en fonction du temps et des contraintes qui lui sont appliquées. La valeur de cette résistance est également affichée implicitement en plus de la valeur de la de résistance du potentiomètre digital.
 
-![](https://i.imgur.com/zuhghsf.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Autres%20images/Logo_App.jpg)
 
 ## Banc de test  
 
-![](https://i.imgur.com/ftwMDFp.png)  
-![](https://i.imgur.com/6yP3EQF.png)  
-![](https://i.imgur.com/GJwPf5G.png)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Datasheet/BancDeTest.PNG)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Datasheet/TestCompression.PNG)
+![](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-nizery-labrousse-cauvet/blob/main/Datasheet/TestTension.PNG)
 
 Nous utilisons ce banc de test composé de 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pax de 0,5 cm. Nous posons le capteur sur chacun des cylindres et appliquons donc une déformation  sur celui-ci. Cette déformation se retrouve avec la formule ci-dessous : 
 $$\epsilon = \frac{e}{2r}$$ 
