@@ -1,6 +1,7 @@
 # *PROJET CAPTEUR - CG-4127-GAF*
 
 ![](https://i.imgur.com/LSR3erp.png)
+![](Autres images/Capteur_Shield.PNG)
 
 ## Introduction : Description du projet, Cahier des charges et Livrables 
 
